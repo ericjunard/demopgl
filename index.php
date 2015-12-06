@@ -7,8 +7,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-    <title>Prett Good Look</title>
+    <link rel="icon" href="">
+    <title>Pretty Good Look</title>
     <?php include ("header.php");?>
   </head>
   <body>
@@ -17,10 +17,10 @@
         <div class="row">
           <div class="col-md-6">
             <h1 class="ff-top">SHOP VIDEOS, OR SUBMIT VIDEOS FOR SHOPPERS!</h1>
-            <h4>Lorem ipsum dolor sit amet, soleat latine ornatus at est</h4>
+            <h4 class="h4-padding">Lorem ipsum dolor sit amet, soleat latine ornatus at est</h4>
             <div class="row">
               <div class="col-md-6"><a href="shop-videos" class="btn btn-primary">SHOP VIDEOS</a></div>
-              <div class="col-md-6"></div>
+              <div class="col-md-6"><a href="submit-videos" class="btn btn-default">SUBMIT VIDEOS</a></div>
             </div>
           </div>
           <div class="col-md-6">
@@ -29,7 +29,89 @@
         </div>
       </div> <!-- /container -->
     <!--End of first fold-->
-  
+    <!--Start of how it works-->
+    <section class="how-it-works">
+      <div class="container">
+        <h1 class="section-title text-center">HOW IT WORKS</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <p> <img src="dist/img/hex1.png"> Soleat latine ornatus at est</p>
+            <p>Lorem ipsum dolor sit amet, intellegat referrentur mea ei, cu ornatus deterruisset quo. Nostrum patrioque no mea. Eu errem tempor phaedrum sed, soleat sanctus eos no, pri ad hinc maiorum consectetuer.</p>
+          </div>
+          <div class="col-md-4">
+            <p> <img src="dist/img/hex2.png"> Soleat latine ornatus at est</p>
+            <p>Lorem ipsum dolor sit amet, intellegat referrentur mea ei, cu ornatus deterruisset quo. Nostrum patrioque no mea. Eu errem tempor phaedrum sed, soleat sanctus eos no, pri ad hinc maiorum consectetuer.</p>
+          </div>
+          <div class="col-md-4">
+            <p> <img src="dist/img/hex3.png"> Soleat latine ornatus at est</p>
+            <p>Lorem ipsum dolor sit amet, intellegat referrentur mea ei, cu ornatus deterruisset quo. Nostrum patrioque no mea. Eu errem tempor phaedrum sed, soleat sanctus eos no, pri ad hinc maiorum consectetuer.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End of how it works-->
+    <!--Start of videos section-->
+    <section class="videos">
+      <div class="container">
+        <h1 class="section-title text-center">LATEST VIDEOS</h1>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="show-image">
+              <img src="dist/img/latest-videos/th1.png">
+              <div class="btn-margin"><input class="watch-btn" type="button" value="WATCH VIDEO" /></div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="show-image">
+              <img src="dist/img/latest-videos/th2.png">
+              <div class="btn-margin"><input class="watch-btn" type="button" value="WATCH VIDEO" /></div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="show-image">
+              <img src="dist/img/latest-videos/th3.png">
+              <div class="btn-margin"><input class="watch-btn" type="button" value="WATCH VIDEO" /></div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="show-image">
+              <img src="dist/img/latest-videos/th4.png">
+              <div class="btn-margin"><input class="watch-btn" type="button" value="WATCH VIDEO" /></div>
+            </div>
+          </div>
+        </div><!--end of row 1 latest videos-->
+        <div class="row">
+          <div class="col-md-3">
+            <div class="show-image">
+              <img src="dist/img/latest-videos/th5.png">
+              <div class="btn-margin"><input class="watch-btn" type="button" value="WATCH VIDEO" /></div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="show-image">
+              <img src="dist/img/latest-videos/th6.png">
+              <div class="btn-margin"><input class="watch-btn" type="button" value="WATCH VIDEO" /></div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="show-image">
+              <img src="dist/img/latest-videos/th7.png">
+              <div class="btn-margin"><input class="watch-btn" type="button" value="WATCH VIDEO" /></div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="show-image">
+              <img src="dist/img/latest-videos/th8.png">
+              <div class="btn-margin"><input class="watch-btn" type="button" value="WATCH VIDEO" /></div>
+            </div>
+          </div>
+        </div><!--end of row2 latest videos-->
+        <a href="#"><p class="bold h4-padding">Browse more videos</p></a>
+      </div>
+    </section>
+      <?php include ("cta.php");?>
+      <?php include ("footer.php");?>
+    <!--End of videos section-->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
