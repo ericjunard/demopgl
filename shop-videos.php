@@ -10,44 +10,74 @@
     <link rel="icon" href="">
     <title>Pretty Good Look</title>
     <?php include ("header.php");?>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </head>
   <body>
-  <div class="container">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<div id="main">
-  <div id="wrapper" class="sidebar">
-    <div id="sidebar">
-      <div class="element" data-slide-id="0">a
-      </div>
-      <div class="element" data-slide-id="1">b
-      </div>
-      <div class="element" data-slide-id="2">c
-      </div>
-      <div class="element" data-slide-id="3">d
-      </div>
-      <div class="element" data-slide-id="4">e
-      </div>
-      <div class="element" data-slide-id="5">f
-      </div>
-      <div class="element" data-slide-id="6">g
-      </div>
-      <div class="element active" data-slide-id="7">h
-      </div>
-        <div class="element" data-slide-id="6">g
-      </div>
-        <div class="element" data-slide-id="6">g
-      </div>
-        <div class="element" data-slide-id="6">g
-      </div>
-        <div class="element" data-slide-id="6">g
+  <section class="play-video">
+    <div class="container"> 
+      <div class="row">
+        <div class="col-md-6">
+        <img src="dist/img/girl-shoe.png">
+        </div>
+        <div class="col-md-6">
+          <div id="main" >
+            <div id="wrapper" class="sidebar">
+              <div id="sidebar">
+                <div class="row">
+                <div class="col-md-6 ">
+                  <div class="element show-image" data-slide-id="0"><img src="dist/img/shoes/1.png">
+                  <div class="btn-margin"><input class="watch-btn btn-margin-shop" type="button" value="SHOP"></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                 <div class="element show-image" data-slide-id="0"><img src="dist/img/shoes/2.png">
+                  <div class="btn-margin"><input class="watch-btn btn-margin-shop" type="button" value="SHOP"></div>
+                 </div>
+                </div>
+                </div>
+                 <div class="row">
+                <div class="col-md-6 ">
+                  <div class="element show-image" data-slide-id="1"><img src="dist/img/shoes/3.png">
+                    <div class="btn-margin"><input class="watch-btn btn-margin-shop" type="button" value="SHOP"></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                 <div class="element show-image" data-slide-id="1"><img src="dist/img/shoes/4.png">
+                  <div class="btn-margin"><input class="watch-btn btn-margin-shop" type="button" value="SHOP"></div>
+                 </div>
+                </div>
+                </div>
+                 <div class="row">
+                <div class="col-md-6 ">
+                  <div class="element show-image" data-slide-id="2"><img src="dist/img/shoes/1.png">
+                    <div class="btn-margin"><input class="watch-btn btn-margin-shop" type="button" value="SHOP"></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                 <div class="element show-image" data-slide-id="2"><img src="dist/img/shoes/2.png">
+                  <div class="btn-margin"><input class="watch-btn btn-margin-shop" type="button" value="SHOP"></div>
+                 </div>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-md-6">
+                 <div class="element show-image" data-slide-id="3"><img src="dist/img/shoes/3.png">
+                  <div class="btn-margin"><input class="watch-btn btn-margin-shop" type="button" value="SHOP"></div>
+                 </div>
+                </div>
+                <div class="col-md-6">
+                <div class="element show-image" data-slide-id="3"><img src="dist/img/shoes/4.png">
+                  <div class="btn-margin"><input class="watch-btn btn-margin-shop" type="button" value="SHOP"></div>
+                </div>
+                </div>
+                </div>
+              </div><!---sidebar-->
+            </div><!---wrapper-->
+          </div><!--main-->
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
-<div id="foo">Clicky</div>
-
-  </div>
+  </section>
   
     <?php include ("footer.php");?>
     <script>
