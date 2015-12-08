@@ -17,7 +17,12 @@
     <div class="container"> 
       <div class="row">
         <div class="col-md-6">
-        <img src="dist/img/girl-shoe.png">
+        <div class="video">  
+          <div class="play-icon text-center"><img src="dist/img/play-icon.png"/></div>
+        </div>
+        <p class="title">Title ipsum dolor sit </p>
+        <p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p>
+        <a href="#"><p class="bold h4-padding">See next video</p></a>
         </div>
         <div class="col-md-6">
           <div id="main" >
@@ -61,7 +66,7 @@
                 </div>
                 <div class="row">
                 <div class="col-md-6">
-                 <div class="element show-image" data-slide-id="3"><img src="dist/img/shoes/3.png">
+                 <div class="element show-image " data-slide-id="3"><img src="dist/img/shoes/3.png">
                   <div class="btn-margin"><input class="watch-btn btn-margin-shop" type="button" value="SHOP"></div>
                  </div>
                 </div>
