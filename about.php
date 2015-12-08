@@ -22,7 +22,7 @@
   </section>
   <section class="about-info">
     <div class="container">
-      <div class="col-md-6">
+      <div class="col-md-6 white-text">
       <h2>More about PGL</h2>
       <p>Lorem ipsum dolor sit amet, intellegat referrentur mea ei, cu ornatus deterruisset quo. Nostrum patrioque no mea. Eu errem tempor phaedrum sed, soleat sanctus eos no, pri ad hinc maiorum consectetuer.</p>
       <p>Lorem ipsum dolor sit amet, intellegat referrentur mea ei, cu ornatus deterruisset quo. Nostrum patrioque no mea. Eu errem tempor phaedrum sed, soleat sanctus eos no, pri ad hinc maiorum consectetuer.</p>
