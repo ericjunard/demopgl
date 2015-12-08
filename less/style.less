@@ -46,7 +46,6 @@ button styles
 .btn-primary, .btn-default{
   height: 60px;
   width: 100%;
-  padding-top: @btn-padding;
 }
 .btn-default:hover{
   background-color: @btn-primary-bg;
@@ -173,8 +172,8 @@ shop videos style
     #sidebar div.element.active {
       background-color: red;
     }
-.play-video{
-  padding-top: 200px;
+.play-video, .submit-video{
+  padding-top: 150px;
 }
 .btn-margin-shop{
   margin-top: -45px;
@@ -186,4 +185,12 @@ shop videos style
   .play-icon{
     padding: 135px 0px 135px 0px;
   }
+}
+:focus{
+  border: 2px solid @btn-primary-bg!important;
+  box-shadow: none!important;
+}
+.half-btn{
+  width: 50%;
+  margin-top: 40px;
 }

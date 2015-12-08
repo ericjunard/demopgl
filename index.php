@@ -19,8 +19,8 @@
             <h1 class="ff-top">SHOP VIDEOS, OR SUBMIT VIDEOS FOR SHOPPERS!</h1>
             <h4 class="h4-padding">Lorem ipsum dolor sit amet, soleat latine ornatus at est</h4>
             <div class="row">
-              <div class="col-md-6"><a href="shop-videos" class="btn btn-primary">SHOP VIDEOS</a></div>
-              <div class="col-md-6"><a href="submit-videos" class="btn btn-default">SUBMIT VIDEOS</a></div>
+              <div class="col-md-6"><input type="submit"  class="btn btn-primary" value="SHOP VIDEOS"/></div>
+              <div class="col-md-6"><input type="submit" class="btn btn-default"/ value="SUBMIT VIDEOS"></div>
             </div>
           </div>
           <div class="col-md-6">
