@@ -25,8 +25,8 @@
           <p class="bold">Email</p>
           <p>pretygoodlook@gmail.com</p>
           <p class="bold">Connect with us</p>
-          <a href="#"><img src="dist/img/twitter-red.png"/></a>
-          <a href="#"><img src="dist/img/google-plus-red.png"/></a>
+          <a href="#" class="social_icon"><img src="dist/img/twitter-red.png"/></a>
+          <a href="#" class="social_icon"><img src="dist/img/google-plus-red.png"/></a>
         </div>
         <div class="col-md-7">
           <form action="email.php" method="POST">
