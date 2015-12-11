@@ -21,16 +21,16 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">pretty<span class="blue">good</span>look</a>
+      <a class="navbar-brand" href="index">pretty<span class="brand">good</span>look</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">VIDEOS</a></li>
-        <li><a href="#">SUBMIT</a></li>
-        <li><a href="#">FEEDBACK</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a href="index">HOME</a></li>
+        <li><a href="about">ABOUT</a></li>
+        <li><a href="videos">VIDEOS</a></li>
+        <li><a href="submit-video">SUBMIT</a></li>
+        <li><a href="feedback">FEEDBACK</a></li>
+        <li><a href="contact">CONTACT</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

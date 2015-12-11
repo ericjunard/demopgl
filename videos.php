@@ -16,7 +16,7 @@
     <div class="container">
       <div class="categories">
         <div class="row">
-          <div class="col-md-10">
+          <div class="col-md-9">
             <ul class="nav navbar-nav ">
               <li ><a href="#">All</a></li>
               <li><a href="#">Beauty</a></li>
@@ -30,6 +30,11 @@
               <li><a href="#">Lookbook</a></li>
             </ul>
           </div> 
+          <div class="col-md-3">
+            <input type="text" class="search" placeholder="Search" name="srch-term" id="srch-term">
+              <button class="btn pull-right glyph-top"><span class="glyphicon glyphicon-search"></span></button>
+           </input>
+          </div>
           </div>        
         </div>
       </div>
@@ -37,71 +42,71 @@
         <div class="container">
           <div class="row">
             <div class="col-md-4">
-              <a><p class="category">Fashion</p></a>
+              <a href="#"><p class="category">Fashion</p></a>
               <img class="img-responsive" src="dist/img/videos/1.png"/>
-              <a  class="btn btn-warning" />Watch Video</a>
+              <a  onclick="window.location.href='shop-videos'"class="btn btn-warning" /><span class="glyphicon glyphicon-triangle-right"></span>WATCH VIDEO</a>
               <p class="title">Title ipsum dolor sit </p>
-              <p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p>
+              <a href="#"><p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p></a>
             </div>
             <div class="col-md-4">
-              <a><p class="category">Beauty</p></a>
+              <a href="#"><p class="category">Beauty</p></a>
               <img class="img-responsive" src="dist/img/videos/4.png"/>
-              <a class="btn btn-warning" />Watch Video</a>
+              <a onclick="window.location.href='shop-videos'" class="btn btn-warning" />WATCH VIDEO</a>
               <p class="title">Title ipsum dolor sit </p>
-              <p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p>
+              <a href="#"><p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p></a>
             </div>
             <div class="col-md-4">
-              <a><p class="category">Hauls</p></a>
+              <a href="#"><p class="category">Hauls</p></a>
               <img class="img-responsive" src="dist/img/videos/3.png"/>
-              <a class="btn btn-warning" />Watch Video</a>
+              <a onclick="window.location.href='shop-videos'" class="btn btn-warning" />WATCH VIDEO</a>
               <p class="title">Title ipsum dolor sit </p>
-              <p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p>
+              <a href="#"><p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p></a>
             </div>
           </div><!--end of row1-->
             <div class="row">
             <div class="col-md-4">
-              <a><p class="category">Tutorials</p></a>
+              <a href="#"><p class="category">Tutorials</p></a>
               <img class="img-responsive" src="dist/img/videos/7.png"/>
-              <a  class="btn btn-warning" />Watch Video</a>
+              <a onclick="window.location.href='shop-videos'" class="btn btn-warning" />WATCH VIDEO</a>
               <p class="title">Title ipsum dolor sit </p>
-              <p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p>
+              <a href="#"><p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p></a>
             </div>
             <div class="col-md-4">
-              <a><p class="category">Routine</p></a>
+              <a href="#"><p class="category">Routine</p></a>
               <img class="img-responsive" src="dist/img/videos/8.png"/>
-              <a class="btn btn-warning" />Watch Video</a>
+              <a onclick="window.location.href='shop-videos'" class="btn btn-warning"/>WATCH VIDEO</a>
               <p class="title">Title ipsum dolor sit </p>
-              <p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p>
+              <a href="#"><p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p></a>
             </div>
             <div class="col-md-4">
-              <a><p class="category">Favorite</p></a>
+              <a href="#"><p class="category">Favorite</p></a>
               <img class="img-responsive" src="dist/img/videos/9.png"/>
-              <a class="btn btn-warning" />Watch Video</a>
+              <a onclick="window.location.href='shop-videos'" class="btn btn-warning" />WATCH VIDEO</a>
               <p class="title">Title ipsum dolor sit </p>
-              <p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p>
+              <a href="#"><p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p></a>
             </div>
           </div><!--end of row2-->
             <div class="row">
             <div class="col-md-4">
-              <a><p class="category">Fashion</p></a>
+              <a href="#"><p class="category">Fashion</p></a>
               <img class="img-responsive" src="dist/img/videos/1.png"/>
-              <a  class="btn btn-warning" />Watch Video</a>
+              <a  class="btn btn-warning" />WATCH VIDEO</a>
               <p class="title">Title ipsum dolor sit </p>
-              <p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p>
+              <a href="#"><p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p></a>
             </div>
             <div class="col-md-4">
-              <a><p class="category">Fashion</p></a>
+              <a href="#"><p class="category">Fashion</p></a>
               <img class="img-responsive" src="dist/img/videos/4.png"/>
-              <a class="btn btn-warning" />Watch Video</a>
+              <a onclick="window.location.href='shop-videos'" class="btn btn-warning" />WATCH VIDEO</a>
               <p class="title">Title ipsum dolor sit </p>
-              <p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p>
+              <a href="#"><p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p></a>
             </div>
             <div class="col-md-4">
-              <a><p class="category">Fashion</p></a>
+              <a href="#"><p class="category">Fashion</p></a>
               <img class="img-responsive" src="dist/img/videos/3.png"/>
-              <a class="btn btn-warning" />Watch Video</a>
+              <a onclick="window.location.href='shop-videos'" class="btn btn-warning" />WATCH VIDEO</a>
               <p class="title">Title ipsum dolor sit </p>
-              <p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p>
+              <a href="#"><p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p></a>
             </div>
           </div><!--end of row3-->             
           <ul class="pagination">

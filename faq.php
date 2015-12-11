@@ -21,26 +21,32 @@
             <p>Answer  ipsum dolor sit amet soleat latine sit  amet soleat latine sit.ipsum dolor sit amet soleat latine sit  amet 
                soleat latine sit.
             </p><!--end of faq 1-->
+            <hr>
             <p class="title">Question  ipsum dolor sit  ?</p>
             <p>Answer  ipsum dolor sit amet soleat latine sit  amet soleat latine sit.ipsum dolor sit amet soleat latine sit  amet 
                soleat latine sit.
             </p><!--end of faq 2-->
+            <hr>
             <p class="title">Question  ipsum dolor sit  ?</p>
             <p>Answer  ipsum dolor sit amet soleat latine sit  amet soleat latine sit.ipsum dolor sit amet soleat latine sit  amet 
                soleat latine sit.
             </p><!--end of faq 3-->
+            <hr>
             <p class="title">Question  ipsum dolor sit  ?</p>
             <p>Answer  ipsum dolor sit amet soleat latine sit  amet soleat latine sit.ipsum dolor sit amet soleat latine sit  amet 
                soleat latine sit.
             </p><!--end of faq 4-->
+            <hr>
             <p class="title">Question  ipsum dolor sit  ?</p>
             <p>Answer  ipsum dolor sit amet soleat latine sit  amet soleat latine sit.ipsum dolor sit amet soleat latine sit  amet 
                soleat latine sit.
             </p><!--end of faq 5-->
+            <hr>
             <p class="title">Question  ipsum dolor sit  ?</p>
             <p>Answer  ipsum dolor sit amet soleat latine sit  amet soleat latine sit.ipsum dolor sit amet soleat latine sit  amet 
                soleat latine sit.
             </p><!--end of faq 6-->
+            <hr>
               <p class="title">Question  ipsum dolor sit  ?</p>
             <p>Answer  ipsum dolor sit amet soleat latine sit  amet soleat latine sit.ipsum dolor sit amet soleat latine sit  amet 
                soleat latine sit.

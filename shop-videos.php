@@ -17,6 +17,11 @@
     <div class="container"> 
       <div class="row">
         <div class="col-md-6">
+          <input type="button" onclick="window.location.href='videos'"class="btn btn-primary half-btn" value="BACK TO VIDEOS"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
         <div class="video">  
           <div class="play-icon text-center"><img src="dist/img/play-icon.png"/></div>
         </div>

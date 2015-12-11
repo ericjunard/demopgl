@@ -3,6 +3,11 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@font-face {
+  font-family: Lovelo;
+  src: url(../dist/fonts/Lovelo Black.otf);
+  font-weight: 700;
+}
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -1176,7 +1181,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: Lovelo;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -1215,8 +1220,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 h1 small,
 .h1 small,

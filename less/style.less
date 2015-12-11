@@ -15,6 +15,9 @@ footer{
   padding: 50px 0px 50px 0px;
   color: @gray-lighter;
 }
+.brand{
+  color: @btn-primary-bg;
+}
 .title{
   font-weight: 700;
   color:#373030;
@@ -97,7 +100,7 @@ howit works section
 }
 section{
   padding-bottom: 100px;
-  padding-top: 100px;
+  padding-top: 40px;
 }
 /*
 show button on vid thumbnails
@@ -152,6 +155,7 @@ videos page styles
   margin-top:111px;
   background-color:  @gray-lighter;
   margin-bottom: 50px;
+  padding-right: 5px;
 }
 .override-height{
     height: 50px!important;
@@ -161,9 +165,18 @@ videos page styles
   border: 2px solid @btn-primary-bg;
 }
 .btn-warning{
-  height: 40px;
+  height: 45px;
   width: 100%;
   margin-top: 10px;
+  border: 2px solid @btn-primary-bg;
+  font-weight: 700;
+  padding-top: @padding-large-vertical; 
+}
+.btn-warning:hover{
+  background-color: @btn-primary-bg;
+ 
+    color: #fff;
+ 
 }
 .title{
   font-weight: 700;
@@ -244,3 +257,40 @@ post submit video style
   }
 }
 
+a{
+  .description{
+    color: #000;
+  }
+}
+a:link{
+  text-decoration: none;
+}
+.search{
+  background-color: #fff;
+  height: 40px;
+  border-radius: @border-radius-base;
+  border: none;
+  margin-top: @padding-small-vertical;
+  width: 100%;
+  position: relative;
+  padding-left: 5px;
+}
+.glyph-top{
+  margin-top: -35px;
+}
+.search:focus{
+  border: none!important;
+  box-shadow: none!important;
+}
+.play-video{
+  input{
+    margin-bottom: 20px;
+  }
+   padding-top: 100px;
+}
+h4{
+  font-size: 18pt;
+}
+.ptop{
+  padding-top: 8px;
+}

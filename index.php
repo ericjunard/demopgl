@@ -13,14 +13,15 @@
   </head>
   <body>
     <!--Start of first fold-->
+    <section >
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h1 class="ff-top">SHOP VIDEOS, OR SUBMIT VIDEOS FOR SHOPPERS!</h1>
-            <h4 class="h4-padding">Lorem ipsum dolor sit amet, soleat latine ornatus at est</h4>
+            <h1 class="ff-top">SHOP VIDEOS, <span class="brand">OR SUBMIT VIDEOS FOR SHOPPERS!</span></h1>
+            <p >Lorem ipsum dolor sit amet, soleat latine ornatus at est</p>
             <div class="row">
-              <div class="col-md-6"><input type="submit"  class="btn btn-primary" value="SHOP VIDEOS"/></div>
-              <div class="col-md-6"><input type="submit" class="btn btn-default"/ value="SUBMIT VIDEOS"></div>
+              <div class="col-md-6"><input onclick ="window.location.href='videos'" type="submit"  class="btn btn-primary" value="SHOP VIDEOS"/></div>
+              <div class="col-md-6"><input onclick ="window.location.href='submit-video'" type="submit" class="btn btn-default"/ value="SUBMIT VIDEOS"></div>
             </div>
           </div>
           <div class="col-md-6">
@@ -28,11 +29,12 @@
           </div>
         </div>
       </div> <!-- /container -->
+    </section>
     <!--End of first fold-->
     <!--Start of how it works-->
     <section class="how-it-works">
       <div class="container">
-        <h1 class="section-title text-center">HOW IT WORKS</h1>
+        <h1 class=" text-center">HOW IT WORKS</h1>
         <div class="row">
           <div class="col-md-4">
             <p> <img src="dist/img/hex1.png"> Soleat latine ornatus at est</p>
@@ -106,11 +108,9 @@
             </div>
           </div>
         </div><!--end of row2 latest videos-->
-        <a href="#"><p class="bold h4-padding">Browse more videos</p></a>
+        <a href="videos"><p class="bold h4-padding">Browse more videos</p></a>
       </div>
     </section>
-      <?php include ("cta.php");?>
-      <?php include ("footer.php");?>
     <!--End of videos section-->
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -119,7 +119,8 @@
     <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="dist/js/bootstrap.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+   
   </body>
+      <?php include ("cta.php");?>
+      <?php include ("footer.php");?>
 </html>

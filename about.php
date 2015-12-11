@@ -26,7 +26,7 @@
       <h2>More about PGL</h2>
       <p>Lorem ipsum dolor sit amet, intellegat referrentur mea ei, cu ornatus deterruisset quo. Nostrum patrioque no mea. Eu errem tempor phaedrum sed, soleat sanctus eos no, pri ad hinc maiorum consectetuer.</p>
       <p>Lorem ipsum dolor sit amet, intellegat referrentur mea ei, cu ornatus deterruisset quo. Nostrum patrioque no mea. Eu errem tempor phaedrum sed, soleat sanctus eos no, pri ad hinc maiorum consectetuer.</p>
-      <input type="submit" class="btn btn-default half-btn" value="LEARN MORE">
+      <input onclick ="window.location.href='submit-video'" type="submit" class="btn btn-default half-btn" value="LEARN MORE">
      </div>
     </div>
   </section>
@@ -45,7 +45,7 @@
           <p>Lorem ipsum dolor sit amet, intellegat referrentur mea ei, cu ornatus deterruisset quo. Nostrum patrioque no mea. Eu errem tempor phaedrum sed, soleat sanctus eos no, pri ad hinc maiorum consectetuer. Zril discere qualisque ad his. Mea errem viderer elaboraret et, error feugait ad eos, eirmod tamquam numquam ius ei. Solet placerat id pro.</p>
           <p>Lorem ipsum dolor sit amet, intellegat referrentur mea ei, cu ornatus deterruisset quo. Nostrum patrioque no mea. </p>
           <p>Lorem ipsum dolor sit amet, intellegat referrentur mea ei, cu ornatus deterruisset quo. Nostrum patrioque no mea. Eu errem tempor phaedrum sed, soleat sanctus eos no, pri ad hinc maiorum consectetuer. Zril discere qualisque ad his. Mea errem viderer elaboraret et, error feugait ad eos, eirmod tamquam numquam ius ei. Solet placerat id pro.</p>
-          <input type="submit" class="btn btn-primary half-btn" value="Shop Videos">
+          <input onclick ="window.location.href='videos'"type="submit" class="btn btn-primary half-btn" value="Shop Videos">
         </div>
       </div>
     </div>
