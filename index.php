@@ -9,8 +9,6 @@
     <meta name="author" content="">
     <link rel="icon" href="">
     <title>Pretty Good Look</title>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
     <?php include ("header.php");?>
   </head>
   <body>
@@ -117,8 +115,6 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
   </body>
       <?php include ("cta.php");?>
@@ -146,5 +142,4 @@
       </div>
       <!-- /.modal-dialog --> 
 </div>
-
 </html>
