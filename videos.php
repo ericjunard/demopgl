@@ -18,16 +18,16 @@
         <div class="row">
           <div class="col-md-9">
             <ul class="nav navbar-nav ">
-              <li ><a href="#">All</a></li>
-              <li><a href="#">Beauty</a></li>
-              <li><a href="#">Fashion</a></li>
-              <li><a href="#">Hauls</a></li>
-              <li><a href="#">Tutorials</a></li>
-              <li ><a href="#">Routine</a></li>
-              <li><a href="#">Favorites</a></li>
+              <li ><a href="#">ALL</a></li>
+              <li><a href="#">BEAUTY</a></li>
+              <li><a href="#">FASHION</a></li>
+              <li><a href="#">HAULS</a></li>
+              <li><a href="#">TUTORIALS</a></li>
+              <li ><a href="#">ROUTINE</a></li>
+              <li><a href="#">FAVORITES</a></li>
               <li><a href="#">GWRM</a></li>
-              <li><a href="#">Reviews</a></li>
-              <li><a href="#">Lookbook</a></li>
+              <li><a href="#">REVIEWS</a></li>
+              <li><a href="#">LOOKBOOK</a></li>
             </ul>
           </div> 
           <div class="col-md-3">
@@ -51,14 +51,14 @@
             <div class="col-md-4">
               <a href="#"><p class="category">Beauty</p></a>
               <img class="img-responsive" src="dist/img/videos/4.png"/>
-              <a onclick="window.location.href='shop-videos'" class="btn btn-warning" />WATCH VIDEO</a>
+               <a  onclick="window.location.href='shop-videos'"class="btn btn-warning" /><span class="glyphicon glyphicon-triangle-right"></span>WATCH VIDEO</a>
               <p class="title">Title ipsum dolor sit </p>
               <a href="#"><p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p></a>
             </div>
             <div class="col-md-4">
               <a href="#"><p class="category">Hauls</p></a>
               <img class="img-responsive" src="dist/img/videos/3.png"/>
-              <a onclick="window.location.href='shop-videos'" class="btn btn-warning" />WATCH VIDEO</a>
+               <a  onclick="window.location.href='shop-videos'"class="btn btn-warning" /><span class="glyphicon glyphicon-triangle-right"></span>WATCH VIDEO</a>
               <p class="title">Title ipsum dolor sit </p>
               <a href="#"><p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p></a>
             </div>
@@ -67,21 +67,21 @@
             <div class="col-md-4">
               <a href="#"><p class="category">Tutorials</p></a>
               <img class="img-responsive" src="dist/img/videos/7.png"/>
-              <a onclick="window.location.href='shop-videos'" class="btn btn-warning" />WATCH VIDEO</a>
+               <a  onclick="window.location.href='shop-videos'"class="btn btn-warning" /><span class="glyphicon glyphicon-triangle-right"></span>WATCH VIDEO</a>
               <p class="title">Title ipsum dolor sit </p>
               <a href="#"><p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p></a>
             </div>
             <div class="col-md-4">
               <a href="#"><p class="category">Routine</p></a>
               <img class="img-responsive" src="dist/img/videos/8.png"/>
-              <a onclick="window.location.href='shop-videos'" class="btn btn-warning"/>WATCH VIDEO</a>
+               <a  onclick="window.location.href='shop-videos'"class="btn btn-warning" /><span class="glyphicon glyphicon-triangle-right"></span>WATCH VIDEO</a>
               <p class="title">Title ipsum dolor sit </p>
               <a href="#"><p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p></a>
             </div>
             <div class="col-md-4">
               <a href="#"><p class="category">Favorite</p></a>
               <img class="img-responsive" src="dist/img/videos/9.png"/>
-              <a onclick="window.location.href='shop-videos'" class="btn btn-warning" />WATCH VIDEO</a>
+               <a  onclick="window.location.href='shop-videos'"class="btn btn-warning" /><span class="glyphicon glyphicon-triangle-right"></span>WATCH VIDEO</a>
               <p class="title">Title ipsum dolor sit </p>
               <a href="#"><p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p></a>
             </div>
@@ -90,21 +90,21 @@
             <div class="col-md-4">
               <a href="#"><p class="category">Fashion</p></a>
               <img class="img-responsive" src="dist/img/videos/1.png"/>
-              <a  class="btn btn-warning" />WATCH VIDEO</a>
+               <a  onclick="window.location.href='shop-videos'"class="btn btn-warning" /><span class="glyphicon glyphicon-triangle-right"></span>WATCH VIDEO</a>
               <p class="title">Title ipsum dolor sit </p>
               <a href="#"><p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p></a>
             </div>
             <div class="col-md-4">
               <a href="#"><p class="category">Fashion</p></a>
               <img class="img-responsive" src="dist/img/videos/4.png"/>
-              <a onclick="window.location.href='shop-videos'" class="btn btn-warning" />WATCH VIDEO</a>
+               <a  onclick="window.location.href='shop-videos'"class="btn btn-warning" /><span class="glyphicon glyphicon-triangle-right"></span>WATCH VIDEO</a>
               <p class="title">Title ipsum dolor sit </p>
               <a href="#"><p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p></a>
             </div>
             <div class="col-md-4">
               <a href="#"><p class="category">Fashion</p></a>
               <img class="img-responsive" src="dist/img/videos/3.png"/>
-              <a onclick="window.location.href='shop-videos'" class="btn btn-warning" />WATCH VIDEO</a>
+               <a  onclick="window.location.href='shop-videos'"class="btn btn-warning" /><span class="glyphicon glyphicon-triangle-right"></span>WATCH VIDEO</a>
               <p class="title">Title ipsum dolor sit </p>
               <a href="#"><p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p></a>
             </div>

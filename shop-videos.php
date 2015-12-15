@@ -15,11 +15,7 @@
   <body>
   <section class="play-video">
     <div class="container"> 
-      <div class="row">
-        <div class="col-md-6">
-          <input type="button" onclick="window.location.href='videos'"class="btn btn-primary half-btn" value="BACK TO VIDEOS"/>
-        </div>
-      </div>
+         <a href="#"><p class="</span> h4-padding bold"><span class=" glyphicon glyphicon-chevron-left"></span>BACK TO VIDEOS</p></a>
       <div class="row">
         <div class="col-md-6">
         <div class="video">  
@@ -27,7 +23,7 @@
         </div>
         <p class="title">Title ipsum dolor sit </p>
         <p class="description">Description  ipsum dolor sit amet soleat latine sit  amet soleat latine sit . . . </p>
-        <a href="#"><p class="bold h4-padding">See next video</p></a>
+        <a href="#"><p class="bold h4-padding">SEE NEXT VIDEO<span class="glyphicon glyphicon-chevron-right"></span></p></a>
         </div>
         <div class="col-md-6">
           <div id="main" >

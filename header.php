@@ -3,7 +3,7 @@
   <script src= "js/less.js" type="text/JavaScript"> </script>
   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
   <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-  <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -21,7 +21,8 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index">pretty<span class="brand">good</span>look</a>
+     <!-- <a class="navbar-brand" href="index">pretty<span class="brand">good</span>look</a>-->
+     <a class="navbar-brand" href="index"><img src="dist/img/logo.png" style="height:32px; margin-top: -4px;"></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">

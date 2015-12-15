@@ -9,6 +9,8 @@
     <meta name="author" content="">
     <link rel="icon" href="">
     <title>Pretty Good Look</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
     <?php include ("header.php");?>
   </head>
   <body>
@@ -21,7 +23,7 @@
             <p >Lorem ipsum dolor sit amet, soleat latine ornatus at est</p>
             <div class="row">
               <div class="col-md-6"><input onclick ="window.location.href='videos'" type="submit"  class="btn btn-primary" value="SHOP VIDEOS"/></div>
-              <div class="col-md-6"><input onclick ="window.location.href='submit-video'" type="submit" class="btn btn-default"/ value="SUBMIT VIDEOS"></div>
+              <div class="col-md-6"><button  data-toggle="modal" data-target="#presubmit" class="btn btn-default"> SUBMIT VIDEOS</button></div>
             </div>
           </div>
           <div class="col-md-6">
@@ -115,12 +117,34 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="dist/js/bootstrap.min.js"></script>
-    <script src="dist/js/bootstrap.js"></script>
-   
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
   </body>
       <?php include ("cta.php");?>
       <?php include ("footer.php");?>
+      <div class="modal fade" id="presubmit" tabindex="-1" role="dialog" aria-labelledby="edit" aria-hidden="true">
+      <div class="modal-dialog">
+      <div class="modal-content col-md-8 col-md-offset-2">
+      <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+      <h4 class="modal-title text-center brand" id="Heading">ENTER EMAIL TO SUBMIT VIDEO</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" name="email" class="form-control" placeholder="Please enter email" >
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer ">
+      <button type="button" class="btn btn-primary">CONTINUE</button>
+      </div>
+      </div>
+      <!-- /.modal-content --> 
+      </div>
+      <!-- /.modal-dialog --> 
+</div>
+
 </html>
