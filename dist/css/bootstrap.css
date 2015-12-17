@@ -4,8 +4,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @font-face {
-  font-family: Lovelo;
-  src: url(../dist/fonts/Lovelo Black.otf);
+  font-family: simplifica;
+  src: url(../dist/fonts/simplifica.ttf);
   font-weight: 700;
 }
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -1181,7 +1181,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: Lovelo;
+  font-family: simplifica;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -1237,6 +1237,16 @@ h3 .small,
 .h3 .small {
   font-size: 65%;
 }
+@media (min-width: 768px) {
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3 {
+    font-size: 21px;
+  }
+}
 h4,
 .h4,
 h5,
@@ -1262,11 +1272,11 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 63px;
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 56px;
 }
 h3,
 .h3 {
@@ -1274,7 +1284,7 @@ h3,
 }
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 44px;
 }
 h5,
 .h5 {

@@ -289,12 +289,24 @@ a:link{
   }
    padding-top: 100px;
 }
-h4{
-  font-size: 18pt;
-}
 .ptop{
   padding-top: 8px;
 }
 .glyphicon .glyphicon-chevron-left{
   padding-top: 3px;
+}
+
+@media (max-width: @screen-sm-min) {
+  .ff-top {
+      padding-top: 20px;
+  }
+  h1, .h1, .h2, h2 {
+      font-size: 40px;
+  }
+  h4, .h4{
+    font-size: 25px;
+  }
+  .btn {
+    margin-top: 10px;
+  }
 }

@@ -108,17 +108,17 @@
             </div>
           </div>
         </div><!--end of row2 latest videos-->
-        <a href="videos"><p class="bold h4-padding">Browse more videos</p></a>
+         <a href="videos"><p class="bold h4-padding">BROWSE MORE VIDEOS<span class="glyphicon glyphicon-chevron-right"></span></p></a>
       </div>
     </section>
     <!--End of videos section-->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="dist/js/bootstrap.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
   </body>
       <?php include ("cta.php");?>
       <?php include ("footer.php");?>

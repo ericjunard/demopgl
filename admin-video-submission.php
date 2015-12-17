@@ -15,7 +15,8 @@
   <![endif]-->
 </head>
 <!-- Fixed navbar -->
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
 <nav class="navbar navbar-default  navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -25,7 +26,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index">pretty<span class="brand">good</span>look</a>
+       <a class="navbar-brand" href="index"><img src="dist/img/logo.png" style="height:32px; margin-top: -4px;"></a>
     </div>
       <div class="pull-right ptop">
       <p>Welcome, <span class="brand">Admin</span> <span class="btn glyphicon glyphicon-triangle-bottom"></span></p></button>
@@ -159,7 +160,7 @@
 <div class="modal-content">
 <div class="modal-header">
 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
-<h4 class="modal-title custom_align" id="Heading">Add New Video</h4>
+<h3 class="modal-title custom_align" id="Heading">ADD NEW VIDEO</h3>
 </div>
 <div class="modal-body">
     <form>
@@ -227,7 +228,7 @@
 <div class="modal-content">
 <div class="modal-header">
 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
-<h4 class="modal-title custom_align" id="Heading">Edit Your Detail</h4>
+<h3 class="modal-title custom_align" id="Heading">EDIT YOUR DETAILS</h3>
 </div>
 <div class="modal-body">
     <form>
@@ -298,7 +299,7 @@
 <div class="modal-content">
 <div class="modal-header">
 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
-<h4 class="modal-title custom_align" id="Heading">Delete this entry</h4>
+<h3 class="modal-title custom_align" id="Heading">DELETE THIS ENTRY</h3>
 </div>
 <div class="modal-body">
 
@@ -342,5 +343,3 @@ $("#mytable #checkall").click(function () {
   </div>
 </footer>
 </html>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
