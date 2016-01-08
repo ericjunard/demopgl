@@ -44,7 +44,7 @@
             </div>
             <label for=""> Message</label>
             <textarea   name="message" class="form-control"> </textarea>
-            <div class="half-btn"><button type="submit" class="btn btn-primary " >Submit Message</button></div>
+            <div class="half-btn"><button data-toggle="modal" data-target ="#contact-ty" type="submit" class="btn btn-primary " >Submit Message</button></div>
           </form>
         </div>
       </div>
@@ -54,11 +54,28 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="dist/js/bootstrap.min.js"></script>
     <script src="dist/js/bootstrap.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
+      <div class="modal fade" id="contact-ty" tabindex="-1" role="dialog" aria-labelledby="edit" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content col-md-8 col-md-offset-2">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+        <h4 class="modal-title text-center brand" id="Heading">Thanks!</h4>
+        </div>
+        <div class="modal-body">
+         <p>Your email has been successfully sent and we appreciate you for contacting us. We'll be in touch soon.</p>
+        </div>
+        <div class="modal-footer ">
+        <button type="button" class="btn btn-primary">Back to browsing</button>
+        </div>
+        </div>
+        <!-- /.modal-content --> 
+        </div>
+        <!-- /.modal-dialog --> 
+      </div>
 </html>
